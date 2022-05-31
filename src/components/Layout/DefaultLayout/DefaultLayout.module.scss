@@ -1,0 +1,16 @@
+.wrapper {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: #fff;
+}
+
+.container{
+    display: flex;
+}
+
+.content{
+    flex: 1;
+    min-height: 1000px;
+    background-color: aquamarine;
+}

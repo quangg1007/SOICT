@@ -1,5 +1,13 @@
+import classNames from 'classnames/bind';
+import style from './Footer.module.scss'
+import images from '~/assets/images';
+
+const cx = classNames.bind(style)
+
 function Footer() {
-    return <h2>Footer</h2>
+    return <footer>
+        <h1>Footer</h1>
+    </footer>
 }
 
 export default Footer;

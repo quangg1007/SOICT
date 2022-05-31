@@ -7,15 +7,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-          <ul>
-            <li>
-              <Link to='/'>Home</Link>
-            </li>
-
-            <li>
-              <Link to='/following'>Following</Link>
-            </li>
-          </ul>
 
           <Routes>
             {publicRoutes.map((route,index) => {
@@ -28,6 +19,15 @@ function App() {
             })}            
           </Routes>
 
+          <ul>
+            <li>
+              <Link to='/'>Home</Link>
+            </li>
+
+            <li>
+              <Link to='/following'>Following</Link>
+            </li>
+          </ul>
         </div>
     </Router>
     
